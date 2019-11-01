@@ -207,3 +207,51 @@ footer nav a {
 #box10 {
     background-color: dodgerblue;
 }
+
+.row {
+    width: 96%;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutIntro {
+    border-bottom: 1px dashed gray;
+}
+
+.rowPara {
+    flex-direction: column;
+    padding-bottom: 2%;
+}
+
+.topHalf {
+    width: 100%;
+    margin: 1%;
+}
+
+.bottomHalf {
+    width: 100%;
+    margin: 1%;
+}
+
+.contentColumn {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    border-bottom: 1px dashed gray;
+}
+
+.button {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 2%;
+    margin: 2%;
+    display: flex;
+    width: 30%;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
